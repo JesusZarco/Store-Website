@@ -1,0 +1,305 @@
+
+/*
+table, th, td  {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: antiquewhite;
+}
+
+*/
+
+
+
+:root {
+    --duckygreen: #A4F235
+    --headergold: #F2C435
+}
+
+
+td:nth-child(even), th:nth-child(even){
+    background-color: var(--duckygreen );
+    
+}
+
+
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #5BB8E3 ;
+    
+
+}
+
+nav>ul>li {
+    padding: 10px;
+    
+}
+
+nav>ul>li:hover {
+    background-color: #BEC0E6;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.susan {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+     
+}
+
+.sus {
+    width: 90%;
+}
+
+.oh {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.off {
+    text-align: center;
+    font-size: 30px;
+  
+}
+
+.hoho {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.the {
+    text-align: center;
+    font-size: 350%;
+    color: rgb(53, 64, 223);
+    margin-right: 6%;
+
+    
+}
+
+.work {
+    text-align: center;
+    font-size: 200%;
+    margin-right: 5%;
+}
+
+.good {
+    width: 60%;
+    height: 70%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+    
+}
+
+.blue {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rook {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.relax {
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.jeanpics {
+    display: flex;
+    justify-content: center;
+}
+
+.jeanpics>figure {
+    width: 20%;
+}
+
+.jeanpics>figure>img {
+    width: 75%;
+    height: 90%;
+}
+
+
+
+.hood {
+text-align: center;
+font-size: 30px;
+
+}
+
+.back {
+    width: 60%;
+    height: 70%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hoodiepics {
+    display: flex;
+    justify-content: center;
+
+}
+
+.hoodiepics>figure {
+width: 20%;
+}
+
+.hoodiepics>figure>img {
+    width: 75%;
+    height: 75%;
+}
+
+
+.tshirtpics {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tshirtpics>figure {
+    width: 20%;
+}
+
+.tshirtpics>figure>img {
+    width: 75%;
+    height: 75%;
+}
+
+.coco {
+    width: 60%;
+    height: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ok {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.footflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45%
+ 
+  }
+ 
+  .footflex>div {
+    margin: auto;
+ 
+ 
+  }
+ 
+  footer>p {
+    text-align: center;
+    
+  }
+
+
+
+
+  .fooflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+ 
+  }
+ 
+  .fooflex>div {
+    margin: auto;
+ 
+ 
+  }
+ 
+  footer>p {
+    text-align: center;
+    
+  }
+
+
+  .foflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45%;
+ 
+  }
+ 
+  .foflex>div {
+    margin: auto;
+ 
+ 
+  }
+ 
+  footer>p {
+    text-align: center;
+    
+  }
+
+
+  .fflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+ 
+  }
+ 
+  .fflex>div {
+    margin: auto;
+ 
+ 
+  }
+ 
+  footer>p {
+    text-align: center;
+    
+  }
+
+
+  .who {
+    margin-top: 10%;
+  }
+
+
+
